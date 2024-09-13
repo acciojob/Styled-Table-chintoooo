@@ -4,12 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Statistics Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        thead {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            font-size: 18px;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
 
-        
+    <table>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Gold</th>
+                <th>Silver</th>
+                <th>Bronze</th>
+                <th>Total Medals</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USA</td>
+                <td>39</td>
+                <td>41</td>
+                <td>33</td>
+                <td>113</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>38</td>
+                <td>32</td>
+                <td>18</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>Japan</td>
+                <td>27</td>
+                <td>14</td>
+                <td>17</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>UK</td>
+                <td>22</td>
+                <td>21</td>
+                <td>22</td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td>ROC</td>
+                <td>20</td>
+                <td>28</td>
+                <td>23</td>
+                <td>71</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
